@@ -1,0 +1,428 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#con1{
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+#row1{
+    padding-top: 10px;
+}
+#click{
+    
+    color: #EE9617;
+}
+#header{
+    background-image: url("./assests/Path\ 1.png");
+    width: 100%;
+    height: 100vh;
+    background-size: 80% 100%;
+    background-repeat: no-repeat;
+}
+.transparentLetter {
+    width: 100%;
+    height: 100%;
+    background-image: url("./assests/aLetter.png");
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 10%;
+}
+
+/*------------------------------------------*/
+.navbar-brand{
+    color: #fff;
+    margin: 0 20px;
+    font-size: 2.5vw;
+    margin-right: 260px;
+}
+.nav-item .nav-link{
+    color: #fff;
+    font-size: 14px;
+}
+.tryForFreeButton {
+    border: none;
+    width: 100px;
+    font-size: 14px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #d54800;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.headerContent {
+    padding: 0vh 7%;
+    margin-top: 15vh;
+    margin-right: 0px;
+}
+.headerText {
+    border: px solid green;
+    color: #fff;
+}
+
+.headerText p {
+    font-size: 12px;
+}
+
+.headerText h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.headerText h2 {
+    font-size: 16px;
+
+}
+
+.headerText h3 {
+    font-size: 24px;
+}
+.tryForFreeButton2 {
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    border-radius: 25px;
+    background-color: transparent;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.seePlansOffersButton {
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    border-radius: 25px;
+    color: #fb644b;
+    box-shadow: 0px 10px 20px 1px rgba(0, 0, 0, 0.2);
+}
+/* ----------------------------------------- */
+.headerImages {
+    position: relative;
+}
+
+.headerImages .img1 {
+    border: 3px solid #fe5858;
+    position: absolute;
+    top: -5%;
+    right: 3%;                                        
+    width: 300px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 10px 20px 1px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.headerImages .img1:hover {
+    z-index: 1;
+    width: 310px;
+}
+
+.headerImages .img2 {
+    border: 3px solid #fe5858;
+    position: absolute;
+    top: 89%;
+    left: 18%;
+    width: 250px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 10px 20px 1px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: .5s;
+
+}
+
+.headerImages .img2:hover {
+    width: 260px;
+}
+
+.whiteBox {
+    border: 2px solid #fff;
+    width: 100px;
+    height: 230px;
+    position: absolute;
+    right: 7%;
+    top: 6%;
+    width: 300px;
+}
+
+.redBox {
+    border: 2px solid #fe5858;
+    position: absolute;
+    width: 250px;
+    right: 7%;
+    bottom: -45%;
+    height: 200px;
+}
+/* ------------------------------------------------------ */
+.compiesLogochild {
+    border: px solid red;
+    margin-bottom: 15vh;
+}
+
+.compiesLogochild .eachCompany {
+    border: px solid green;
+    display: flex;
+    justify-content: center;
+}
+
+.eachCompany img {
+    width: 80%;
+    margin: auto;
+    border: px solid green;
+    cursor: pointer;
+}
+
+/*------------------------------------------*/
+.hostingServices {
+    border: px solid red;
+
+}
+
+.hostingServicesChild>hr {
+    width: 20%;
+    border: 1.5px solid gray;
+    margin: auto;
+    margin-bottom: 3vh;
+}
+
+.hostingServicesChild h1 {
+    color: #000;
+    text-align: center;
+}
+
+.hostingServicesChild h1 span {
+    color: #fe5858;
+}
+
+.hostingServicesChild p {
+    text-align: center;
+    color: gray;
+}
+
+.mainRow {
+    border: px solid red;
+    margin-top: 8vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.QuickBookscol {
+    border: px solid green;
+    width: 22%;
+    box-shadow: -13px 0px 50px -8px rgba(0,0,0,0.4);
+    background-color:#fff;
+}
+
+
+
+.cloudHosting {
+    border: px solid green;
+    width: 76%;
+    box-shadow: -50px 19px 50px -23px rgba(0,0,0,0.28);
+    background-color:#fff;
+}
+
+@media (max-width:992px) {
+    .QuickBookscol {
+        width: 100%;
+    }
+
+    .cloudHosting {
+        width: 100%;
+    }
+}
+
+.QuickBookscol img {
+    padding: 0px;
+}
+
+.QuickBooksTextRow {
+    display: flex;
+    justify-content: center;
+}
+
+.QuickBooksTextRow h2 {
+    color: #fe5858;
+    text-align: center;
+    margin: 2vh 0vh;
+}
+
+.QuickBooksTextRow p {
+    font-size: 16px;
+}
+
+.QuickBooksTextRow .bookNowButton, .comparePlans {
+    border: px solid green;
+    margin: 5vh 0 4vh 0;
+    width: 130px;
+    height: 45px;
+    border-radius: 40px;
+    background: rgb(230, 154, 6);
+    background: linear-gradient(270deg, rgb(237 149 22) 0%, rgb(255 73 73) 70%);
+    border:none;
+    color: #fff;
+}
+
+.cloudHostingContent {
+    padding: 0% 3%;
+}
+
+.cloudHostingContent h1 {
+    border: px solid green;
+    text-align: left;
+}
+
+.hLine hr {
+    border: px solid #101010;
+    width: 30%;
+}
+
+.cloudHostingContent p {
+    border: px solid mediumspringgreen;
+    text-align: left;
+}
+
+.hostingButtons {
+    border: px solid midnightblue;
+}
+
+.comparePlans {
+    width: 150px;
+    margin-bottom: 25px;
+}
+
+.exploreQuickBooksHosting {
+    width: 230px;
+    color:gray;
+    border:1px solid gray;
+    height: 40px;
+    border-radius:20px;
+}
+
+.unlimitedPtag{
+    border:px solid red;
+    margin-top:6vh;
+    padding: 0% 3%;
+}
+
+.buttonOfHostingPage{
+    border:px solid magenta;
+    background-color:#fbfbfb;
+}
+
+.cloudHostingButton{
+    border:none;
+    width:150px;
+    height:40px;
+    margin-right:2%;
+    border-radius:7px 7px 0px 0px;
+    background-color:#ff9600;
+    color:#fff;
+}
+
+.buyLicenceButton{
+    color:gray;
+    border:1px solid gray;
+    width:150px;
+    height:40px;
+    border-radius:7px 7px 0px 0px;
+}
+
+.unlimitedPtag p{
+    border:px solid green;
+    text-align:left;
+    margin:0px;
+}
+
+.unlimitedPtag p a{
+    color:#ff9600;
+}
+
+.cloudHostingImageCol {
+    border: px solid red;
+    padding: 0% 3%;
+}
+
+.cloudHostingImageCol img {
+    width: 100%;
+}
+
+.comparePlans {
+    height: 40px;
+}
+/* ---------------------------------------------------------------------  */
+#row11{
+    margin-top: 200px;
+}
+#row11p{
+    font-size: 35px;
+}
+#line2
+{
+border: 1px dotted #000;
+    margin-top: 40px;
+    margin-left: 0px;
+    width: 180px;
+}
+ .row11-12img-1{
+    border: 1px solid white;
+    box-shadow: 1px 1px 10px 1px rgb(148, 144, 144);
+    width: 180px;
+    height: 100px;
+}
+.row11-12img-2{
+    margin-left: 30px;
+    margin-top:-25px ;
+    box-shadow: 1px 1px 10px 1px rgb(148, 144, 144);
+    border: 1px solid white;
+    width: 180px;
+    height: 100px;
+} 
+
+
+#row13{
+    box-shadow: 1px 1px 10px 1px rgb(148, 144, 144);
+    margin-top: 150px;
+    border-radius: 10px;
+    
+}
+#row13empty{
+    border-radius: 10px 0px 0px 10px;
+    background-color: #EE9617;
+    height: 250px;
+}
+#row13p{
+    margin-top: 25px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+#line3{
+    border: 1px dotted #000;
+    margin-top: 40px;
+    margin-left: 5px;
+    width: 180px;
+    margin-bottom: 40px;
+}
+#row13btn{
+margin: 110px 0px 0px 60px;
+ border: 2px solid white;
+border-radius: 20px;
+padding: 2px 15px 2px 15px;
+color: #FA644C;
+background-color: white ;
+box-shadow: 1px 1px 10px 1px rgb(148, 144, 144);
+}
+#row13btn-out{
+    border-radius: 0px 10px 10px 0px;
+    background-color:#E44613;
+    border: 2px solid #E44613;
+    margin-left: 75px;
+    height: 250px;
+}
+#row14{
+margin-top: 30px;
+}
